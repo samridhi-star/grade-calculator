@@ -28,5 +28,9 @@ else
 
 cout << "Percentage: " << percentage << "%" << endl;
 cout << "Grade: " << grade << endl;
+if (percentage >= 40)
+    cout << "Result: PASS" << endl;
+else
+    cout << "Result: FAIL" << endl;
     return 0;
 }
