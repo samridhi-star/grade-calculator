@@ -10,6 +10,6 @@ int main(){
         cin>>marks[i];
         total+=marks[i];
     }
-    cout<<total<<endl;
+    cout << "Total Marks: " << total << " / " << n * 100 << endl;
     return 0;
 }
